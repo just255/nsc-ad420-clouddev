@@ -267,17 +267,12 @@ definitions:
     properties:
       userId:
         type: "integer"
-        format: "int64"
-        example: 1234567890
       userName:
         type: "string"
-        example: "spiderman64"
       firstName:
         type: "string"
-        example: "John"
       lastName:
         type: "string"
-        example: "Smith"
       tasks:
         type: "array"
         items:
@@ -289,11 +284,8 @@ definitions:
     properties:
       taskId:
         type: "integer"
-        format: "int64"
-        example: 987654321
       taskName:
         type: "string"
-        example: "Take out garbage"
       complete:
         type: "boolean"
         default: false
